@@ -71,6 +71,23 @@
         ]
       }
     },
+        {
+      "type": "text",
+      "action": "output",
+      "args": {
+        "outputName": "geoip-asn.txt",
+        "wantedList": [
+          "cloudflare",
+          "cloudfront",
+          "facebook",
+          "fastly",
+          "google",
+          "netflix",
+          "telegram",
+          "twitter"
+        ]
+      }
+    },
     {
       "type": "v2rayGeoIPDat",
       "action": "output",
